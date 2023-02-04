@@ -32,3 +32,12 @@ function cheapestPhone( phones){
 }
 const myPhone = cheapestPhone(phones);
 console.log(myPhone);
+function call(){
+    let sum=0; 
+for( let i = 0; i<=3;i++){ 
+sum = sum + i; 
+}
+return sum;
+}
+const lara= call();
+console.log(lara);
